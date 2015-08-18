@@ -1,0 +1,19 @@
+.user-image {
+  height: 50px;
+  width: 50xp;
+}
+.message {
+  margin-bottom: 5px;
+}
+.message:focus {
+  outline: none;
+}
+
+.message-text {
+  margin-left: 10px;
+}
+
+.message-display {
+  padding-bottom: 15px;
+  overflow-y: scroll;
+}

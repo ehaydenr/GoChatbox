@@ -1,0 +1,15 @@
+<div class="message" tabindex="1" ng-click="toggleName()" ng-blur="showName(false)" layout="column" layout-align="start">
+  <div layout="row">
+    <div layout="column">
+      <img layout="row" layout-align="center center" class="img-circle user-image" src="{{message.Origin.Picture}}">
+    </div>
+    <div layout="column" layout-align="center center">
+      <div class="message-text">
+        {{message.Content}}
+      </div>
+    </div>
+  </div>
+  <div layout="row" ng-show="show_name">
+    {{message.Origin.Name}}
+  </div>
+</div>
